@@ -7,7 +7,7 @@ printf("Hello from parent [%d - %d]\n", pid, n);
 } else if (pid == 0) { 
 printf("Hello from child [%d - %d]\n", pid, n);
 } else { 
-return EXIT_FAILURE;
+return 1;
 }
-return EXIT_SUCCESS;
+return 0;
 }
