@@ -1,1 +1,1 @@
-
+Virtual address is split into a virtual page number (high-order bits) and an offset (low-order bits). In this task the lower 13 bits (each page 8KB, 2^13 = 8192 bits, each page contains 13 bits) will specify the byte offset (0 to 8191), then upper 16 - 13 = 3 bit will represent number of entries in page table, it means that we will have 2^3 = 8 entries in page table. 
