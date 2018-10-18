@@ -1,0 +1,4 @@
+The techniques that reduce miss cost are sub-blocking (allows smaller blocks to be transferred on a
+miss), the addition of a second level cache (obviously), early restart/critical word first (allows a miss to
+return to the processor earlier), and a write-back buffer (buffers write-backs allowing replacement
+blocks to access the bus immediately).
